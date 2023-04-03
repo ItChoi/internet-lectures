@@ -1,0 +1,7 @@
+
+t
+java:S2142""^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+k
+java:S1128"IRemove this unused import 'com.example.inflearnspringcore.trace.TraceId'.(ÇÐ¢‰ùÿÿÿÿ8¬˜ñøï0
+v
+java:S1128"YRemove this unused import 'com.example.inflearnspringcore.trace.hellotrace.HelloTraceV2'.(üŽ¯ª8¬˜ñøï0

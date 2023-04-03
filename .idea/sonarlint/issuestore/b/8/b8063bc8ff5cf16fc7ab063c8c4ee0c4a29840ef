@@ -1,0 +1,22 @@
+
+]
+java:S1128";Remove this unused import 'hello.proxy.config.AppV1Config'.(Îµ¶Âùÿÿÿÿ8±î”ìò0
+]
+java:S1128";Remove this unused import 'hello.proxy.config.AppV2Config'.(æ€Ûûÿÿÿÿ8²î”ìò0
+h
+java:S1128"LRemove this unused import 'hello.proxy.config.v1_proxy.ConcreteProxyConfig'.(€–ä8²î”ìò0
+j
+java:S1128"MRemove this unused import 'hello.proxy.config.v1_proxy.InterfaceProxyConfig'.(Êó¼Ï8²î”ìò0
+y
+java:S1128"WRemove this unused import 'hello.proxy.config.v2_dynamicproxy.DynamicProxyBasicConfig'.(âûùæøÿÿÿÿ8²î”ìò0
+u
+java:S1128"XRemove this unused import 'hello.proxy.config.v2_dynamicproxy.DynamicProxyFilterConfig'.(¢È’Õ8³î”ìò0
+q
+java:S1128	"TRemove this unused import 'hello.proxy.config.v3_proxyfactory.ProxyFactoryConfigV1'.(¢ğ‹8³î”ìò0
+v
+java:S1128
+"TRemove this unused import 'hello.proxy.config.v3_proxyfactory.ProxyFactoryConfigV2'.(ÄˆÈıÿÿÿÿ8³î”ìò0
+z
+java:S1128"XRemove this unused import 'hello.proxy.config.v4_postprocessor.BeanPostProcessorConfig'.(”Æ Üùÿÿÿÿ8³î”ìò0
+i
+java:S1128"LRemove this unused import 'hello.proxy.config.v5_autoproxy.AutoProxyConfig'.(òäğ»8³î”ìò0

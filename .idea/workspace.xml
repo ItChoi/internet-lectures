@@ -5,9 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec6b3cfd-3abc-44c1-bd03-cec959ecf5d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1e26d3142d38c329b5d1f7cf5c33e2242399cf4" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/LogTraceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v1/OrderControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v1/OrderRepositoryV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v1/OrderServiceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v2/OrderControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v2/OrderRepositoryV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v2/OrderServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v3/OrderControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v3/OrderRepositoryV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v3/OrderServiceV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v4/OrderControllerV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v4/OrderRepositoryV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v4/OrderServiceV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v5/OrderControllerV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v5/OrderRepositoryV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v5/OrderServiceV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/TraceId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/TraceStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/callback/TraceCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/callback/TraceTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/hellotrace/HelloTraceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/hellotrace/HelloTraceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/logtrace/FieldLogTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/logtrace/LogTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/logtrace/ThreadLocalLogTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/trace/template/AbstractTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/hellotrace/HelloTraceV1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/hellotrace/HelloTraceV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/logtrace/FieldLogTraceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/logtrace/ThreadLocalLogTraceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/ContextV1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/ContextV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/TemplateCallbackText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/code/strategy/ContextV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/code/strategy/ContextV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/code/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/code/strategy/StrategyLogic1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/code/strategy/StrategyLogic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/code/template/CallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/strategy/code/template/TimeLogTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/template/TemplateMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/template/code/AbstractTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/template/code/SubClassLogic1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/template/code/SubClassLogic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/threadlocal/FieldServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/threadlocal/ThreadLocalServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/threadlocal/code/FieldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inflearn-spring-core/src/test/java/com/example/inflearnspringcore/trace/threadlocal/code/ThreadLocalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/pureproxy/concreteproxy/code/Time123Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inflearn-spring-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/inflearn-spring-core/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +67,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$USER_HOME$/Downloads/advanced/proxy">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/inflearn-spring-core">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/proxy">
       <ProjectState />
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/inflearn-spring-core">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -30,6 +91,15 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,39 +111,170 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "15",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;adopt-16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/csh/workspace/internet-lectures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.16110474&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5e1f12b967827260130bb71de2af4668&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="internet-lectures" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v5" />
+      <recent name="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v4" />
+      <recent name="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v3" />
+      <recent name="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v2" />
+      <recent name="$PROJECT_DIR$/inflearn-spring-core/src/main/java/com/example/inflearnspringcore/app/v1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.inflearnspringcore.trace.threadlocal.code" />
+      <recent name="com.example.inflearnspringcore.trace.logtrace" />
+      <recent name="com.example.inflearnspringcore.trace.hellotrace" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.inflearnspringcore.trace.strategy.code.strategy" />
+      <recent name="com.example.inflearnspringcore.trace.template.code" />
+      <recent name="com.example.inflearnspringcore.trace.logtrace" />
+      <recent name="com.example.inflearnspringcore.trace.threadlocal" />
+      <recent name="com.example.inflearnspringcore.trace.threadlocal.code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ConcreteProxyTest.addProxy">
+    <configuration name="ConcreteProxyTest.addProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.proxy.pureproxy.concreteproxy.ConcreteProxyTest.addProxy&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContextV2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-spring-core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.inflearnspringcore.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.inflearnspringcore.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.example.inflearnspringcore.trace.strategy.ContextV2Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="internet-lectures" />
-      <option name="filePath" />
+    <configuration name="ContextV2Test.strategyV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-spring-core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.inflearnspringcore.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.inflearnspringcore.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.example.inflearnspringcore.trace.strategy.ContextV2Test" />
+      <option name="METHOD_NAME" value="strategyV2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateCallbackText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-spring-core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.inflearnspringcore.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.inflearnspringcore.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.example.inflearnspringcore.trace.strategy.TemplateCallbackText" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateCallbackText.callbackV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inflearn-spring-core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.inflearnspringcore.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.inflearnspringcore.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.example.inflearnspringcore.trace.strategy.TemplateCallbackText" />
+      <option name="METHOD_NAME" value="callbackV2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InflearnSpringCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inflearn-spring-core.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.inflearnspringcore.InflearnSpringCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="proxy.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.proxy.ProxyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ConcreteProxyTest.addProxy" />
+        <item itemvalue="JUnit.TemplateCallbackText.callbackV2" />
+        <item itemvalue="JUnit.TemplateCallbackText" />
+        <item itemvalue="JUnit.ContextV2Test" />
+        <item itemvalue="JUnit.ContextV2Test.strategyV2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,6 +294,23 @@
       <workItem from="1673591608229" duration="114000" />
       <workItem from="1673591726446" duration="31000" />
       <workItem from="1678363434678" duration="938000" />
+      <workItem from="1678364377598" duration="1680000" />
+      <workItem from="1678428474864" duration="1295000" />
+      <workItem from="1678719713863" duration="604000" />
+      <workItem from="1678795486430" duration="2589000" />
+      <workItem from="1678883753696" duration="4496000" />
+      <workItem from="1679316102796" duration="7997000" />
+      <workItem from="1679407860444" duration="1207000" />
+      <workItem from="1679489229030" duration="64000" />
+      <workItem from="1679490263457" duration="4410000" />
+      <workItem from="1679792621141" duration="144000" />
+      <workItem from="1679920366276" duration="6801000" />
+      <workItem from="1680091758899" duration="295000" />
+      <workItem from="1680093906951" duration="493000" />
+      <workItem from="1680094451815" duration="48000" />
+      <workItem from="1680094698808" duration="3082000" />
+      <workItem from="1680179656987" duration="1930000" />
+      <workItem from="1680239673583" duration="3141000" />
     </task>
     <servers />
   </component>
@@ -111,7 +329,12 @@
     </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
+    <expand>
+      <path>
+        <item name="internet-lectures" type="b2602c69:ProjectViewProjectNode" />
+        <item name="internet-lectures" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
     <select />
   </component>
 </project>
